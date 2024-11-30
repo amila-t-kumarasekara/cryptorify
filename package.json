@@ -1,6 +1,6 @@
 {
   "name": "cryptorify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight, flexible encryption library for Node.js, providing secure AES-based encryption with GCM mode by default. Customize algorithms, encoding, and other parameters to suit your needs. Perfect for securing sensitive data with simplicity and speed.",
   "main": "index.js",
   "types": "index.d.ts",
