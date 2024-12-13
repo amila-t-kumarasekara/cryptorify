@@ -1,4 +1,4 @@
-declare module "shieldcrypt" {
+declare module "cryptorify" {
     interface CryptorifyOptions {
         /**
          * Algorithm for encryption (e.g., 'aes-256-gcm').
