@@ -1,17 +1,32 @@
 {
   "name": "cryptorify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight, flexible encryption library for Node.js, providing secure AES-based encryption with GCM mode by default. Customize algorithms, encoding, and other parameters to suit your needs. Perfect for securing sensitive data with simplicity and speed.",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amila-t-kumarasekara/cryptorify.git"
   },
-  "author": "amila-t-kumarasekara",
+  "author": {
+    "name": "Amila Kumarasekara",
+    "email": "amilathushara15@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Amila kumarasekara",
+      "email": "amilathushara15@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/amila-t-kumarasekara/cryptorify/issues"
@@ -19,6 +34,10 @@
   "homepage": "https://github.com/amila-t-kumarasekara/cryptorify#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
-    "jest": "^29.7.0"
+    "@types/node": "^22.13.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }

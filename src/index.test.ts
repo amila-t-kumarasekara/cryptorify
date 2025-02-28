@@ -1,4 +1,4 @@
-const Cryptorify = require('./index');
+import Cryptorify from './index';
 
 describe('Cryptorify Tests', () => {
     const secretKey = 'testSecretKey';
@@ -10,7 +10,7 @@ describe('Cryptorify Tests', () => {
     });
 
     const testValue = 'TestValue';
-    let encryptedValue;
+    let encryptedValue: string;
 
     test('encrypt() should encrypt a value', () => {
         encryptedValue = cryptorify.encrypt(testValue);
